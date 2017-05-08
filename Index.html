@@ -51,7 +51,40 @@
 <p><video src="sample.mp4" width="320" controls autoplay>video要素をサポートしていないブラウザで閲覧されています。
 他のブラウザでご覧ください</video></p>
 
-
+  <p>表組みver</p>
+<table>
+  <tr><th>材料名</th><th>分量</th><th>単位</th></tr>
+  <tr><td>牛バラ肉</td><td>500</td><td>g</td></tr>
+  <tr><td>にんじん</td><td>500</td><td>kg</td></tr>
+  <tr><td>たまねぎ</td><td>3</td><td>個</td></tr>
+  <tr><td>ルー</td><td>100</td><td>g</td></tr>
+</table>
+  
+  <h1>アンケート</h1>
+  <form id="top" action="#" method="post">
+    <p><input type="text" name="input1"></p>
+    <p><input type="submit" value="送信">
+      <input> type="reset" value="取り消し"</p>
+    <p>テキストボックス<input type="text" name="input1"></p>
+    
+    <p>好きなカレーは
+    <input type="checkbox" name="input12" value="beef"    id="0" checked><label for="0">ビーフカレー</label>
+    <input type="checkbox" name="input12" value="chicken" id="1"><label for="1">チキンカレー</label>
+    <input type="checkbox" name="input12" value="seafood" id="1"><label for="2">シーフードカレー</label>
+    </p>
+    <p>好きな辛さは
+    <input type="radio" name="input11" value="Lv1" checked>"甘口
+    <input type="radio" name="input11" value="Lv2"  >中辛
+      <input type="radio" name="input11" value="Lv3" >辛口
+    </p>
+    <p>好きな置き日数は
+      <select name="input13">
+      <option value="0day" selected>0日
+      <option value="1day">1日
+      <option value="2day">2日
+      </select></p>
+    
+  </form>
 
 
 </body>
